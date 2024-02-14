@@ -46,18 +46,26 @@ a {
 ul {
   list-style-type: none;
 }
+.links {
+  display: flex;
+}
 
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
-.push-left {
+ul {
   display: flex;
-  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
-.push-right {
+.left, .right {
   display: flex;
-  margin-left: auto;
+  align-items: center;
+  gap: 16px;
+
 
 }
