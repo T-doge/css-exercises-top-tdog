@@ -15,12 +15,18 @@ body {
   justify-content: center;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+
 
 .icon {
   color: royalblue;
@@ -66,4 +72,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal{
+  gap: 16px;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
